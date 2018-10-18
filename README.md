@@ -4,7 +4,9 @@ _by Irene Chen_
 
 ---
 ## Git vs. GitHub
-
+_What is GIT?_  
+Git is a software where you can keep track of your changes.  
+Git keeps "screenshots" of your code or version control. 
 
 
 ---
