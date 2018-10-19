@@ -10,9 +10,12 @@ Git is a software where you can keep track of your changes.
 Git keeps "screenshots" of your code or version control. 
 
 **_What is Github?_**  
-Github is a cloud or internet.   
+Github is a cloud or website.   
 Github is where you can easily collabrate on the same file.  
 
+**_Different between Git and Github_**  
+Github requires git while git doesn't require github.  
+Git and github both runs in the command line.
 
 ---
 ## Initial Setup
