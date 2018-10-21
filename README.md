@@ -111,6 +111,21 @@ where you'll list changes you made to the working directory
 
 ---
 ## Rolling Back Changes
+_There are many time where we make a mistake. Here are some commits that you can use to undo._
 
+### ```GIT CHECKOUT --<FILENAME>```  
+* How to type: ```git checkout --<filename>```
+* This command is use to undo edits in the staging area. 
+* You can find this command in ```git status``` after you edited it. 
+* Outcome: Your changes from the last commit to now will be deleted in the staging area.
+---
+### ```GIT RESET HEAD <FILENAME>```
+* How to type: ```git reset HEAD <filename>```
+* This command is use to unstage the files from the staging area.
+* You can find this command in ```git status``` where it is green meaning it is added to the stage area
+* Outcome: In ```git status``` it will become red meaning the changes hasn't been add
+---
+### ```GIT RESET --SOFT HEAD~1```
+*
 ---  
 ## Collaboration
