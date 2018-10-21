@@ -144,3 +144,16 @@ _There are many time where we make a mistake. Here are some commits that you can
 * SHA is a series of number that can be found in ```git log``` next to the commits.
 ---  
 ## Collaboration
+**_What is the difference between clone and fork?_**
+Cloning a repo is making the same copy of the other person's repo.
+Forking a repo is like cloning, but you are making a new remote from the same copy. In order word, remix.
+
+**_How to clone another person's repo?_**
+1. In the github page of the other person, click the **clone or download** green button. 
+2. Copy the link. (make sure it's in SSH instead of HTTPS)
+3. In c9, type ```git clone [SSH url]```
+
+**_How to fork another person's repo?_**
+1. In the github page of the other person, click the **Fork** button on the upper right corner.
+2. You will see the same exact repo, but with you username instead of the other person.
+3. Copy this repo into your c9.
