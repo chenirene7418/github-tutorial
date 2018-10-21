@@ -126,6 +126,21 @@ _There are many time where we make a mistake. Here are some commits that you can
 * Outcome: In ```git status``` it will become red meaning the changes hasn't been add
 ---
 ### ```GIT RESET --SOFT HEAD~1```
-*
+* How to type: ```git reset --soft HEAD~1```
+* This command is use to undo commit 
+* Outcome: In ```git log``` you can see all your commits. After using this command, you can see that your most recent commit isn't listed.
+---
+### ```GIT RESET HEAD~1```
+* How to type: ```git rest HEAD~1```
+* This command undo the most recent commit and unstage the file. 
+---
+### ```GIT RESET --HARD HEAD~1```
+* How to type: ```git reset --hard HEAD~1```
+* This command undo the most recent commit, unstage the file, AND undo the edits in the file.
+---
+### ```GIT REVERT SHA```
+* How to type: ```git revert [insert SHA]```
+* This command undo the push of the commits.
+* SHA is a series of number that can be found in ```git log``` next to the commits.
 ---  
 ## Collaboration
