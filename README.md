@@ -31,6 +31,15 @@ But the difference is that HTTPS will make you enter your github account informa
 ---
 ## Repository Setup
 
+**How to set up a new repository in github?**  
+1. On you github home page, on the upper right corner, you should see a "+" 
+2. After you click the "+", you should see **New Repository**. This will allow you to create a new repository (repo).
+3. Fill out the title of the repo. (Remember that when naming the space should be repace by a "-" and no capital letters.)
+4. Click **Create Repository**.
+5. You'll see a **Quick Setup** section. Make sure the link is in SSH key formate. NOT HTTPS. 
+
+**Setup on Cloud 9 (c9)**
+1. 
 
 
 ---
