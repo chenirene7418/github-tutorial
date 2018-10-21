@@ -22,6 +22,7 @@ Github is where you can easily collabrate on the same file.
 [Go to the Github sigh up page](https://github.com/) to sign up.
 
 **_What is an SSH key?_**  
+SSH stands for **S**ecure **SH**ell.  
 SSH Key is use to let the computer know that you are the owner of the account.  
 
 **_Why should we perfer SSH Key over HTTPS?_**  
@@ -66,34 +67,47 @@ where you'll list changes you made to the working directory
 
 ---
 ### ```GIT INIT```
+* How to type: ```git init```
 * The word init means _initalize_.
 * This command will set up all the tools Git needs to begin tracking changes made in the project.
-* How to type: ```git init```
 
 ---
 ### ```GIT STATUS```
-* This command will let you check the status of the changes
+*  How to type: ```git status```
+*  This command will let you check the status of the changes
 * Untracked files means Git sees the file but hasn't start tracking any changes yet.
-* How to type: ```git status```
 
 ---
-### ```GIT ADD [filename]```
+### ```GIT ADD```
+* How to type: ```git add <insert filename>```
 * In order for Git to start track any file, you need to add it to the stage area
 * filename refers to the file you had modify (change)
-* How to type: ```git add <insert filename>```
-
 ---
-### ```GIT ADD .```
-* This command only add all new or modified file.
-* It will not add deleted or rename ones
 * How to type: ```git add .```
-
+* This command only add all new or modified file.
+* It will not add deleted or rename ones  
 ---
-### ```GIT ADD --ALL```
-* This command will add all changes to the staging area, including the renamed and deleted ones
 * How to type: ```git add --all```
+* This command will add all changes to the staging area, including the renamed and deleted ones
 
 ---
+### ```GIT COMMIT```
+* How to type: ```git commit -m <insert message>```
+* A _commit_ permanently stores the changes from the staging area into the repository. 
+* The message has to be short, describing what has change since the last commit. 
+* -m is an option for _git commit_
+
+---
+### ```GIT PUSH```
+* How to type: ```git push -u origin master```
+* This command is use when you push the first time.
+* This command help us sent all our commit into our local in c9 to our remote in github.
+* origin is where it will push to. 
+* master is where the "main" branch of our project is.
+* -u is where it will tell git to remember where it will push to. Without -u you'll have to type ```git push origin master``` everytime you want to push
+---
+* How to type: ```git push```
+* After the first time, we can just type in this command and git will remember to push to origin master.
 
 ---
 ## Rolling Back Changes
