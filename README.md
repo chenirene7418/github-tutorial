@@ -83,6 +83,17 @@ where you'll list changes you made to the working directory
 * How to type: ```git add <insert filename>```
 
 ---
+### ```GIT ADD .```
+* This command only add all new or modified file.
+* It will not add deleted or rename ones
+* How to type: ```git add .```
+
+---
+### ```GIT ADD --ALL```
+* This command will add all changes to the staging area, including the renamed and deleted ones
+* How to type: ```git add --all```
+
+---
 
 ---
 ## Rolling Back Changes
