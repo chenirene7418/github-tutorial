@@ -38,6 +38,7 @@ But the difference is that HTTPS will make you enter your github account informa
 4. Click **Create Repository**.
 5. You'll see a **Quick Setup** section. Make sure the link is in SSH key formate. NOT HTTPS. 
 
+---
 **_Setup on Cloud 9 (c9)_**
 1. Login to your c9 account. Make sure you're in workspace right now.
 2. Make a new folder and name it the same thing you name for the repo in github ```mkdir filename```
@@ -63,7 +64,16 @@ where you'll list changes you made to the working directory
 
 **_A REPOSITORY_**- where Git permanently stores those changes as different versions of the project
 
+---
+### ```Git init```
+* The word init means _initalize_.
+* This command will set up all the tools Git needs to begin tracking changes made in the project.
+* How to type: ```git init```
 
+---
 
 ---
 ## Rolling Back Changes
+
+---  
+## Collaboration
