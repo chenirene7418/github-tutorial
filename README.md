@@ -39,7 +39,17 @@ But the difference is that HTTPS will make you enter your github account informa
 5. You'll see a **Quick Setup** section. Make sure the link is in SSH key formate. NOT HTTPS. 
 
 **Setup on Cloud 9 (c9)**
-1. 
+1. Login to your c9 account. Make sure you're in workspace right now.
+2. Make a new folder and name it the same thing you name for the repo in github ```mkdir filename```
+3. Move into this the folder ```cd filename``` and make a new file call README.md ```touch filename```
+4. type ```git init``` in the new folder. **Never make use ```git init``` in your workspace**
+5. type ```git add README.md``` 
+6. type ```git commit -m "make README.md"``` 
+7. go back to github and click the clipboard to copy. 
+8. type ```git remote add origin git@github.com/username/....git``` in your terminal
+9. Finally, type ```git push -u origin master```
+
+**IF YOU ARE CONFUSE WHY WE USE THESE COMMANDS, SCOLD DOWN TO FIND WHY**
 
 
 ---
