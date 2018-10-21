@@ -65,10 +65,16 @@ where you'll list changes you made to the working directory
 **_A REPOSITORY_**- where Git permanently stores those changes as different versions of the project
 
 ---
-### ```Git init```
+### ```GIT INIT```
 * The word init means _initalize_.
 * This command will set up all the tools Git needs to begin tracking changes made in the project.
 * How to type: ```git init```
+
+---
+### ```GIT STATUS```
+* This command will let you check the status of the changes
+* Untracked files means Git sees the file but hasn't start tracking any changes yet.
+* How to type: ```git status```
 
 ---
 
