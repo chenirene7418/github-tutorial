@@ -18,27 +18,27 @@ Github is where you can easily collabrate on the same file.
 ---
 ## Initial Setup
 
-**Don't have a github account?**  
+**_Don't have a github account?_**  
 [Go to the Github sigh up page](https://github.com/) to sign up.
 
-**What is an SSH key?**  
+**_What is an SSH key?_**  
 SSH Key is use to let the computer know that you are the owner of the account.  
 
-**Why should we perfer SSH Key over HTTPS?**  
+**_Why should we perfer SSH Key over HTTPS?_**  
 HTTPS is use the same way as SSH key.  
 But the difference is that HTTPS will make you enter your github account information everytime.
 
 ---
 ## Repository Setup
 
-**How to set up a new repository in github?**  
+**_How to set up a new repository in github?_**  
 1. On you github home page, on the upper right corner, you should see a "+" 
 2. After you click the "+", you should see **New Repository**. This will allow you to create a new repository (repo).
 3. Fill out the title of the repo. (Remember that when naming the space should be repace by a "-" and no capital letters.)
 4. Click **Create Repository**.
 5. You'll see a **Quick Setup** section. Make sure the link is in SSH key formate. NOT HTTPS. 
 
-**Setup on Cloud 9 (c9)**
+**_Setup on Cloud 9 (c9)_**
 1. Login to your c9 account. Make sure you're in workspace right now.
 2. Make a new folder and name it the same thing you name for the repo in github ```mkdir filename```
 3. Move into this the folder ```cd filename``` and make a new file call README.md ```touch filename```
@@ -51,9 +51,17 @@ But the difference is that HTTPS will make you enter your github account informa
 
 **IF YOU ARE CONFUSE WHY WE USE THESE COMMANDS, SCOLD DOWN TO FIND WHY**
 
-
 ---
 ## Workflow & Commands
+_Here are the basic understanding of Git_  
+
+**_WORKING DIRECTORY_**-
+where you will do all the work: creating, editing, deleting, and organize files
+
+**_STAGING AREA_**- 
+where you'll list changes you made to the working directory 
+
+**_A REPOSITORY_**- where Git permanently stores those changes as different versions of the project
 
 
 
