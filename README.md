@@ -77,6 +77,12 @@ where you'll list changes you made to the working directory
 * How to type: ```git status```
 
 ---
+### ```GIT ADD [filename]```
+* In order for Git to start track any file, you need to add it to the stage area
+* filename refers to the file you had modify (change)
+* How to type: ```git add <insert filename>```
+
+---
 
 ---
 ## Rolling Back Changes
