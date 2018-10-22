@@ -189,3 +189,23 @@ A pull request is when you want to suggest any changes you made in your fork rep
 
 ---
 ## Error Handling  
+**_What if you accidently initialize in your workspace?_**  
+Solution: ```rm -rf .git```  
+This command will undo your git that is running.
+
+**_How do you know if git is running_**  
+There is two ways:
+1. ```ls --al``` will show all the hidden files. If you see **git**, then git is running.
+2. If you go into your folder (hint: use ```cd <filename>```) and see _(master)_ in your terminal, it means it is running.
+
+**_How do you remove a repository (local and remote)?_**  
+
+**C9 (local)**  
+1. In c9, don't go into the file or folder. Stay in the mother-folder (the folder above the repo folder)
+2. Type ```rm -rf <filename>``` This will force the folder to be deleted.
+
+**Github (remote)**
+1. In your github repo, click **setting** in the repo header
+2. Scold down to the **Danger Zone** 
+3. Then click **Deleted this repository**
+4. Type in your title of this repo and confirm to delete your repo.
