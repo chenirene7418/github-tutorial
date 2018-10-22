@@ -29,6 +29,17 @@ SSH Key is use to let the computer know that you are the owner of the account.
 HTTPS is use the same way as SSH key.  
 But the difference is that HTTPS will make you enter your github account information everytime.
 
+**_How to setup a SSH Key?_**
+1. In c9, go to the setting's button on the upper right corner 
+2. Then click **SSH Keys** 
+3. Copy the code that is under **Connect to your server using SSH**
+4. Go to your github and click your profolio icon
+5. Click the setting button 
+6. In the sidebar, click **SSH and GPS keys**
+7. Then click **New SSH key**
+8. Then paste what you copy in c9. (The long code)
+9. Click **Add SSH key**
+10. Type in your password for github if they tell you to confirm. 
 ---
 ## Repository Setup
 
