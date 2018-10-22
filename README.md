@@ -19,8 +19,12 @@ Github is where you can easily collabrate on the same file.
 ## Initial Setup
 
 **_Don't have a github account?_**  
-[Go to the Github sigh up page](https://github.com/) to sign up.
-
+1. [Go to the Github sigh up page](https://github.com/) to sign up.
+2. In step 1, fill out your information and then click **Create an account**
+3. In step 2 of choosing our own plans, choose **Unlimited public repositories for free**
+4. In step 3, talior your experience
+5. Finall, go to your email and verify. 
+---
 **_What is an SSH key?_**  
 SSH stands for **S**ecure **SH**ell.  
 SSH Key is use to let the computer know that you are the owner of the account.  
@@ -184,3 +188,4 @@ A pull request is when you want to suggest any changes you made in your fork rep
 8. If the original owner of the repo likes your request, they will use ```git pull``` to see your changes in their repo. 
 
 ---
+## Error Handling  
