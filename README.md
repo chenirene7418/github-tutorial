@@ -158,6 +158,7 @@ _There are many time where we make a mistake. Here are some commits that you can
 **_What is the difference between clone and fork?_**
 Cloning a repo is making the same copy of the other person's repo.
 Forking a repo is like cloning, but you are making a new remote from the same copy. In order word, remix.
+In forking, you have permission to _push_, but not in cloning because the remote isn't yours.
 
 **_How to clone another person's repo?_**
 1. In the github page of the other person, click the **clone or download** green button. 
@@ -168,3 +169,18 @@ Forking a repo is like cloning, but you are making a new remote from the same co
 1. In the github page of the other person, click the **Fork** button on the upper right corner.
 2. You will see the same exact repo, but with you username instead of the other person.
 3. Copy this repo into your c9.
+
+**_What is a pull request?_**  
+A pull request is when you want to suggest any changes you made in your fork repo to the original repo.
+
+**_How do you pull request?_** 
+1. First fork someone else's repo
+2. Then you clone your fork repo to c9
+3. After making your changes (add and commit), push 
+4. In github, click **Pull Request** in the repo header
+5. Enter a title and description about what you did
+6. Click the **Send pull request** green button 
+7. Then wait until your pull request is approve or delinced 
+8. If the original owner of the repo likes your request, they will use ```git pull``` to see your changes in their repo. 
+
+---
