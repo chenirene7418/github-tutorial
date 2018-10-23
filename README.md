@@ -56,7 +56,7 @@ But the difference is that HTTPS will make you enter your github account informa
 
 ---
 **_Setup on Cloud 9 (c9)_**
-1. Login to your c9 account. Make sure you're in workspace right now.
+1. Login to your [c9 account](https://aws.amazon.com/cloud9/?origin=c9io). Make sure you're in workspace right now.
 2. Make a new folder and name it the same thing you name for the repo in github ```mkdir filename```
 3. Move into this the folder ```cd filename``` and make a new file call README.md ```touch filename```
 4. type ```git init``` in the new folder. **Never make use ```git init``` in your workspace**
