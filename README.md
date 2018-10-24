@@ -36,7 +36,7 @@ But the difference is that HTTPS will make you enter your github account informa
 **_How to setup a SSH Key?_**
 1. In c9, go to the setting's button on the upper right corner 
 2. Then click **SSH Keys** 
-3. Copy the code that is under **Connect to your server using SSH**
+3. Copy the code that is under **Connect to your private git repository**
 4. Go to your github and click your profolio icon
 5. Click the setting button 
 6. In the sidebar, click **SSH and GPS keys**
@@ -48,7 +48,7 @@ But the difference is that HTTPS will make you enter your github account informa
 ## Repository Setup
 
 **_How to set up a new repository in github?_**  
-1. On you github home page, on the upper right corner, you should see a "+" 
+1. On your github home page, on the upper right corner, you should see a "+" 
 2. After you click the "+", you should see **New Repository**. This will allow you to create a new repository (repo).
 3. Fill out the title of the repo. (Remember that when naming the space should be repace by a "-" and no capital letters.)
 4. Click **Create Repository**.
@@ -66,7 +66,7 @@ But the difference is that HTTPS will make you enter your github account informa
 8. type ```git remote add origin git@github.com/username/....git``` in your terminal
 9. Finally, type ```git push -u origin master```
 
-**IF YOU ARE CONFUSE WHY WE USE THESE COMMANDS, SCOLD DOWN TO FIND WHY**
+**IF YOU ARE CONFUSED ON WHY WE USE THESE COMMANDS, SCROLL DOWN TO FIND OUT WHY**
 
 ---
 ## Workflow & Commands
@@ -96,7 +96,7 @@ where you'll list changes you made to the working directory
 ### ```GIT ADD```
 * How to type: ```git add <insert filename>```
 * In order for Git to start track any file, you need to add it to the stage area
-* filename refers to the file you had modify (change)
+* filename refers to the file you had to modify (change)
 ---
 * How to type: ```git add .```
 * This command only add all new or modified file.
@@ -116,7 +116,7 @@ where you'll list changes you made to the working directory
 ### ```GIT PUSH```
 * How to type: ```git push -u origin master```
 * This command is use when you push the first time.
-* This command help us sent all our commit into our local in c9 to our remote in github.
+* This command help us send all our commit into our local in c9 to our remote in github.
 * origin is where it will push to. 
 * master is where the "main" branch of our project is.
 * -u is where it will tell git to remember where it will push to. Without -u you'll have to type ```git push origin master``` everytime you want to push
@@ -184,7 +184,7 @@ A pull request is when you want to suggest any changes you made in your fork rep
 4. In github, click **Pull Request** in the repo header
 5. Enter a title and description about what you did
 6. Click the **Send pull request** green button 
-7. Then wait until your pull request is approve or delinced 
+7. Then wait until your pull request is approved or declined
 8. If the original owner of the repo likes your request, they will use ```git pull``` to see your changes in their repo. 
 
 ---
