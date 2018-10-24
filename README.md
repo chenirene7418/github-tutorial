@@ -193,7 +193,7 @@ A pull request is when you want to suggest any changes you made in your fork rep
 Solution: ```rm -rf .git```  
 This command will undo your git that is running.
 
-**_How do you know if git is running_**  
+**_How do you know if git is running?_**  
 There is two ways:
 1. ```ls --al``` will show all the hidden files. If you see **git**, then git is running.
 2. If you go into your folder (hint: use ```cd <filename>```) and see _(master)_ in your terminal, it means it is running.
