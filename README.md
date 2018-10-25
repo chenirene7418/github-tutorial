@@ -23,7 +23,7 @@ Github is where you can easily collabrate on the same file.
 2. In step 1, fill out your information and then click **Create an account**
 3. In step 2 of choosing our own plans, choose **Unlimited public repositories for free**
 4. In step 3, talior your experience
-5. Finall, go to your email and verify. 
+5. Finally, go to your email and verify. 
 ---
 **_What is an SSH key?_**  
 SSH stands for **S**ecure **SH**ell.  
@@ -44,6 +44,7 @@ But the difference is that HTTPS will make you enter your github account informa
 8. Then paste what you copy in c9. (The long code)
 9. Click **Add SSH key**
 10. Type in your password for github if they tell you to confirm. 
+
 ---
 ## Repository Setup
 
@@ -97,10 +98,12 @@ where you'll list changes you made to the working directory
 * How to type: ```git add <insert filename>```
 * In order for Git to start track any file, you need to add it to the stage area
 * filename refers to the file you had to modify (change)
+
 ---
 * How to type: ```git add .```
 * This command only add all new or modified file.
 * It will not add deleted or rename ones  
+
 ---
 * How to type: ```git add --all```
 * This command will add all changes to the staging area, including the renamed and deleted ones
@@ -120,6 +123,7 @@ where you'll list changes you made to the working directory
 * origin is where it will push to. 
 * master is where the "main" branch of our project is.
 * -u is where it will tell git to remember where it will push to. Without -u you'll have to type ```git push origin master``` everytime you want to push
+
 ---
 * How to type: ```git push```
 * After the first time, we can just type in this command and git will remember to push to origin master.
@@ -133,30 +137,36 @@ _There are many time where we make a mistake. Here are some commits that you can
 * This command is use to undo edits in the staging area. 
 * You can find this command in ```git status``` after you edited it. 
 * Outcome: Your changes from the last commit to now will be deleted in the staging area.
+
 ---
 ### ```GIT RESET HEAD <FILENAME>```
 * How to type: ```git reset HEAD <filename>```
 * This command is use to unstage the files from the staging area.
 * You can find this command in ```git status``` where it is green meaning it is added to the stage area
 * Outcome: In ```git status``` it will become red meaning the changes hasn't been add
+
 ---
 ### ```GIT RESET --SOFT HEAD~1```
 * How to type: ```git reset --soft HEAD~1```
 * This command is use to undo commit 
 * Outcome: In ```git log``` you can see all your commits. After using this command, you can see that your most recent commit isn't listed.
+
 ---
 ### ```GIT RESET HEAD~1```
 * How to type: ```git rest HEAD~1```
 * This command undo the most recent commit and unstage the file. 
+
 ---
 ### ```GIT RESET --HARD HEAD~1```
 * How to type: ```git reset --hard HEAD~1```
 * This command undo the most recent commit, unstage the file, AND undo the edits in the file.
+
 ---
 ### ```GIT REVERT SHA```
 * How to type: ```git revert [insert SHA]```
 * This command undo the push of the commits.
 * SHA is a series of number that can be found in ```git log``` next to the commits.
+
 ---  
 ## Collaboration
 **_What is the difference between clone and fork?_**
