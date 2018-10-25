@@ -23,7 +23,7 @@ Github is where you can easily collabrate on the same file.
 2. In step 1, fill out your information and then click **Create an account**
 3. In step 2 of choosing our own plans, choose **Unlimited public repositories for free**
 4. In step 3, talior your experience
-5. Finally, go to your email and verify. 
+5. Finally, go to your email to verify.
 
 **_What is an SSH key?_**  
 SSH stands for **S**ecure **SH**ell.  
